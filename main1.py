@@ -9,7 +9,7 @@ email_list= list(email_col)
 
 for i in email_list:
 #print(email_list)
-    from_address = "p69021603@gmail.com"
+    from_address = # your email id
     to_address =   str(i)
 
     # Create message container - the correct MIME type is multipart/alternative.
@@ -37,9 +37,9 @@ for i in email_list:
     # Attach parts into message container
     msg.attach(part1)
 
-    # Credentials
-    username = "p69021603@gmail.com"
-    password = 'ipltrukffusawvnq'
+    # Credentials provided by google after registration
+    username = ""
+    password = ""
 
     # Sending the email
     # note - this smtp config worked for me, I found it googling around, you may have to tweak the # (587) to get yours to work
