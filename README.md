@@ -16,8 +16,8 @@ Clone the project
   git clone https://github.com/Demogorgon24242/bulk_mail_sender.git
 ```
 
-Go to the project directory
+Go to the project directory and run python file
 
 ```bash
-  cd main1.py
+  python main1.py
 ```
